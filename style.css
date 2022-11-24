@@ -1,8 +1,16 @@
 /* IMPORTADO DO SITE P5.JS.WEB */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+
 html, body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg, black, rgb(126, 159, 126), black);
+    /* background: linear-gradient(90deg, black, white, black); */
+    background: black;
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,38 +35,55 @@ html, body {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 0px 0px 15px white;
 }
 
 .dev {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
-    margin-left: 420px;
+    margin-top: 45px;
+    margin-left: 410px;
     color: white;
+    text-shadow: 0px 0px 20px white;
 }
 
 .dev a {
     text-decoration: none;
-    color: rgb(5, 150, 5);
+    color: black;
     margin-left: 5px;
     font-weight: bold;
-    border-bottom: 1px solid rgb(0, 67, 0);
+    text-shadow: 0px 0px 10px white;
 }
 
 .dev a:hover {
-    color: red;
+    color: white;
     scale: 1.1;
     margin-left: 10px;
-    border-bottom: 1px solid red;
+    margin-right: 20px;
+    text-shadow: 0px 0px 10px white;
 }
 
   canvas {
     margin-top: 40px;
     display: block;
     border: 1px solid white;
-
+    /* box-shadow: 0px 0px 15px white; */
+    animation: animation_arena 3s infinite;
 }
+
+@keyframes animation_arena {
+    0%{
+        box-shadow: 0px 0px 15px white;
+    }
+    50%{
+        box-shadow: 0px 0px 40px white;
+    }
+    100%{
+        box-shadow: 0px 0px 15px white;
+    }
+}
+
   main {
     display: flex;
     align-items: center;
