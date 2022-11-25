@@ -89,3 +89,48 @@ html, body {
     align-items: center;
     justify-content: center;
 }
+
+/* TESTE
+.y, .y_2, .y_3 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.y_2 {
+    color: blue;
+}
+
+.y_3 {
+    color: red;
+}
+
+.placar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    gap: 20px;
+}
+
+.ptsPlayer, .ptsCPU {
+    font-size: 80px;
+}
+
+.ptsPlayer {
+    color: blue;
+}
+
+.ptsCPU {
+    color: red;
+}
+
+.velBall {
+    display: flex;
+    align-items: center;
+    color: yellow;
+    margin-top: 10px;
+} */
